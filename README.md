@@ -19,6 +19,8 @@ I build production automation — **n8n workflows**, **AI pipelines**, and **RAG
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Frameworks & Frontend**
@@ -29,22 +31,38 @@ I build production automation — **n8n workflows**, **AI pipelines**, and **RAG
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![shadcn/ui](https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 
-**Automation, AI & Real-Time**
+**Mobile & Cross-Platform**
 
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows_Forms-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
+**Real-Time, Automation & AI**
+
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code_CLI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
 ![Jina AI](https://img.shields.io/badge/Jina_AI-009191?style=for-the-badge&logo=jinaai&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-**Databases & DevOps**
+**Databases**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+**DevOps & Deployment**
+
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_VPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![IIS](https://img.shields.io/badge/IIS-0078D6?style=for-the-badge&logo=iis&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ---
@@ -57,12 +75,18 @@ I build production automation — **n8n workflows**, **AI pipelines**, and **RAG
 >
 > **If you're evaluating output, look at what's pinned — not the graph.**
 
-<div align="center">
+---
 
-![Andrei's GitHub stats](https://github-readme-stats.vercel.app/api?username=DavaXCode&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DavaXCode&layout=compact&theme=tokyonight&hide_border=true)
+### 🤖 How I work — AI-orchestrated development
 
-</div>
+I treat **Claude Code CLI** as a first-class part of my engineering toolchain — not a code generator, but an orchestrated team of specialist agents.
+
+- **Custom sub-agents** for builders (`.NET API`, `Next.js routes`, `shadcn UI`) and reviewers (`security`, `query-perf`, `migration safety`, `multi-tenant gateway`).
+- **Hooks** that enforce house rules at write time — no raw hex colors, no swallowed exceptions, no `--no-verify`, no force-push to `main`.
+- **MCP servers** for n8n, context7, and project-specific tools.
+- **Slash commands** for repeatable workflows (`/review`, `/security-review`, project switchers).
+
+The result: ship faster *without* shipping slop. The engineering judgement stays mine; the toil gets delegated.
 
 ---
 
@@ -75,6 +99,8 @@ I build production automation — **n8n workflows**, **AI pipelines**, and **RAG
 🛒 **Next-generation POS** — lead engineer on the rebuild. **First client secured**, additional deals in pipeline.
 
 🏛️ **Queue Management System** — real-time, multi-platform product: React web kiosk + admin dashboard, Flutter mobile panel, and a Windows-Forms thermal-printer client, all synchronized over **MQTT** against a .NET 6 / SQL Server backend. **Live with an LGU client in Balete, Aklan.**
+
+📱 **Ledger** *(launching to Play Store soon)* — Flutter Android personal-finance tracker. Riverpod state, GoRouter, sqflite local persistence, fl_chart visualizations, biometric lock, and local notifications. Repo private until store launch — happy to demo on request.
 
 ---
 
