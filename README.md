@@ -112,6 +112,8 @@ The result: ship faster *without* shipping slop. The engineering judgement stays
 | 🎯 **Lead Funnel** | 3-pipeline AI lead scoring on a portfolio contact form. Groq scores 1–10, routes Hot/Warm/Cold, fires Gmail sequences, instant Slack alerts on hot leads, Cal.com booking capture, idempotent reminders. | n8n · Groq · Gmail · Slack · Cal.com · Sheets |
 | 💬 **AICS** | End-to-end customer support automation across 5 n8n pipelines. 29-node chat flow with sentiment analysis, history compression, KB injection, and reply-vs-escalate decisioning. | n8n · Groq · PostgreSQL · Gmail |
 | 📚 **RAG System** | Document intelligence pipeline. File ingestion → Jina embeddings → pgvector storage → grounded query answers via Groq. Slack ingestion bot included. | n8n · Jina AI · Groq · pgvector · Slack |
+| 📥 **AI Inbox** | Gmail triage + draft. LLM classifies intent (meeting / lead / spam); meeting requests get a calendar-aware draft offering 3 free slots in your timezone, leads get logged + acked, spam gets labeled. Drafts only — humans send. | n8n · Gmail · Google Calendar · Groq · Sheets |
+| 🤖 **AI Support Agent** | Telegram bot built on the n8n AI Agent node with three first-class tools: `search_knowledge_base` (calls RAG over HTTP), `Create Support Ticket` (Notion), `Escalate To Human` (Slack). Postgres-backed conversation memory per chat. Composes the RAG system as a tool. | n8n AI Agent · Telegram · Groq · PostgreSQL · Notion · Slack · pgvector |
 
 > All three are **live and demo-able on request**.
 
