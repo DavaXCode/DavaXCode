@@ -95,7 +95,7 @@ The result: ship faster *without* shipping slop. The engineering judgement stays
 
 🏨 **Property Management System** — end-to-end owner. Architecture, features, production reliability. **2 hotel clients live**, more onboarding.
 
-📦 **ERP Platform** — co-authored the original codebase that became the foundation for the current product. **2 distributor-industry clients live**. Transitioning to full ownership later this year.
+📦 **ERP Platform** — co-authored the original codebase that became the foundation for the current product. **2 distributor-industry clients live maintained**.
 
 🛒 **Next-generation POS** — lead engineer on the rebuild. **First client secured**, additional deals in pipeline.
 
