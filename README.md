@@ -95,11 +95,13 @@ The result: ship faster *without* shipping slop. The engineering judgement stays
 
 🏨 **Property Management System** — end-to-end owner. Architecture, features, production reliability. **2 hotel clients live**, more onboarding.
 
-📦 **ERP Platform** — co-authored the original codebase that became the foundation for the current product. **2 distributor-industry clients live maintained**.
+📦 **ERP Platform** — co-authored the original codebase that became the foundation for the current product: an enterprise-grade, **SAP-level ERP**. **2 distributor-industry clients live and maintained.**
 
-🛒 **Next-generation POS** — lead engineer on the rebuild. **First client secured**, additional deals in pipeline.
+🛒 **Next-generation POS** — lead engineer on the rebuild. **Multiple clients live**, additional deals in the pipeline.
 
 🏛️ **Queue Management System** — real-time, multi-platform product: React web kiosk + admin dashboard, Flutter mobile panel, and a Windows-Forms thermal-printer client, all synchronized over **MQTT** against a .NET 6 / SQL Server backend. **Live with an LGU client in Balete, Aklan.**
+
+🗂️ **Client Management System** — multi-tenant SaaS platform. React + shadcn/ui SPA behind an **Ocelot** API gateway with per-tenant path routing, over a **.NET 10 / EF Core 10** backend: MediatR CQRS, Autofac DI, JWT auth with refresh-token rotation, and PostgreSQL 16.
 
 📱 **Ledger** *(launching to Play Store soon)* — Flutter Android personal-finance tracker. Riverpod state, GoRouter, sqflite local persistence, fl_chart visualizations, biometric lock, and local notifications. Repo private until store launch — happy to demo on request.
 
